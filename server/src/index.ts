@@ -1,6 +1,9 @@
 require("dotenv").config();
 import express from "express";
 import loginRouter from "./routes/login";
+import mongoose from "./db/mongo";
+mongoose.version;
+
 const app = express();
 const PORT = process.env.PORT || 8000;
 
