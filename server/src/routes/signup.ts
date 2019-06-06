@@ -1,5 +1,5 @@
 import express from "express";
-import loginPOST from "../controllers/loginPOST";
+import signupPOST from "../controllers/signupPOST";
 const router = express.Router();
 
 router
